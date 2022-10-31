@@ -1,38 +1,42 @@
-.App {
+.github-wrapper{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.5px solid #aaa;
   text-align: center;
+  padding-bottom: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user-name{
+  padding: 12px;
+  font-size: 16px;
+  width: 200px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-btn{
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin: 20px 0px;
+  width: 150px;
+  color: #888;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.user-wrapper{
+  width: 400px;   
+  height: 350px;  
+  border: 1px solid #999;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20pxX;
+}
+.user-wrapper img{
+  width: 100px;
+  margin-top: 20px;
+}
+.github-wrapper button{
+  background-color: blue;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.github-wrapper button:disabled{
+  background-color: #aaa;
+  color: #111;
 }
